@@ -7,6 +7,7 @@ public class Station {
     private double waterLevel;
     private double waterTemperature;
     private String unit;
+    private double waterFlow;
 
     public Station() {}
 
@@ -31,4 +32,6 @@ public class Station {
     public void setWaterTemperature(double waterTemperature) { this.waterTemperature = waterTemperature; }
     public String getUnit() { return unit; }
     public void setUnit(String unit) { this.unit = unit; }
+    public double getWaterFlow() { return waterFlow; }
+    public void setWaterFlow(double waterFlow) { this.waterFlow = waterFlow; }
 }
