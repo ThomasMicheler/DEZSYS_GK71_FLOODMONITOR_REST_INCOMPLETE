@@ -1,4 +1,7 @@
 package com.example.floodmonitor.model;
 
-public class StationStatus {
+public enum StationStatus {
+    ONLINE,
+    MAINTENANCE,
+    OFFLINE
 }

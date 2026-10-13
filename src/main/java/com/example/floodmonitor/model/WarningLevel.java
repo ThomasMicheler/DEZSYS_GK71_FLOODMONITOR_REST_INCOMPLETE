@@ -1,4 +1,6 @@
 package com.example.floodmonitor.model;
 
-public class WarningLevel {
+
+public enum WarningLevel {
+    NORMAL, WARNING, CRITICAL, UNKNOWN
 }
