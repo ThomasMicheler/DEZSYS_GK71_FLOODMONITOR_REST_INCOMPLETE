@@ -334,12 +334,6 @@ Die Aufgabe ist vollständig umgesetzt, wenn:
 *   Anforderungen **"zur Gänze erfüllt"**
     *   Korrekte Fehlerverarbeitung bei nicht korrekten Abfragen
     *   Filterung der Endpunkte
-*  Erweiterte Anforderungen **"überwiegend erfüllt"**
-    *   Aufteilung des zentralen Prozesses in mindestens 3 Prozesse (1 Prozess pro Messstation)
-    *   Implementierung einer Zentrale, die in regelmässigen Abständen die Werte der Messstationen abfragt
-    *   Zusammensetzung der Werte der einzelen Messtationen in eine Datenstruktur
-*  Erweiterte Anforderungen **"zur Gänze erfüllt"**
-    *   Implementierung eines Sicherheitskonzepts zur Unterscheidung von einfachen Abfragen "Viewer" und der Administration von Parametern als "Admin
 
 ## Abgabe
 
