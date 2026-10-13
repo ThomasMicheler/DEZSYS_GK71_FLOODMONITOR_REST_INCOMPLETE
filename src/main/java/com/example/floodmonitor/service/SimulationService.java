@@ -31,7 +31,8 @@ public class SimulationService {
             station.setTimestamp(timestamp);
             station.setWaterLevel(Math.round((0.5 + random.nextDouble() * 4.5) * 100.0) / 100.0);
             station.setWaterTemperature(Math.round((4.0 + random.nextDouble() * 16.0) * 10.0) / 10.0);
-            station.setUnit("m");
+            station.setWaterFlow(Math.round((10.0 + random.nextDouble() * 90.0) * 10.0) / 10.0);
+            station.setUnit("cm");
             stations.add(station);
         }
 
