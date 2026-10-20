@@ -12,7 +12,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 @SpringBootTest
 @AutoConfigureMockMvc
-@TestPropertySource(properties = "simulation.enabled=false") // Schaltet den Scheduler für Tests ab
+@TestPropertySource(properties = "simulation.enabled=false") // Schaltet den Scheduler für Tests
 public class StationControllerTest {
 
     @Autowired
